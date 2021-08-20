@@ -11,7 +11,8 @@ function App() {
 
 
     <div className="App">
-      <h1> this website is under dev ! </h1>
+      <h1> This website is under development ! </h1>
+      
     </div>
 
 
