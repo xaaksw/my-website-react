@@ -1,7 +1,11 @@
 function ContactListItem(props) {
   return (
-    <li>
-      <a href={props.url} target="_blank">
+    <li className="m-3 ">
+      <a
+        className="p-3 btn btn-outline-light fw-bold"
+        href={props.url}
+        target="_blank"
+      >
         {props.name}
       </a>
     </li>

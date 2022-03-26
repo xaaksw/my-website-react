@@ -4,7 +4,11 @@ function ContactList() {
   let ContactListItems = links.map((link) => (
     <ContactListItem name={link.name} url={link.url}></ContactListItem>
   ));
-  return <ul>{ContactListItems}</ul>;
+  return (
+    <ul className="list-unstyled d-flex justify-content-center flex-wrap ">
+      {ContactListItems}
+    </ul>
+  );
 }
 
 const links = [
@@ -13,7 +17,7 @@ const links = [
     url: "https://www.linkedin.com/in/ahmed-ashref/",
   },
   { name: "Twitter", url: "https://twitter.com/ahmedashrefsw" },
-  { name: "Withus", url: "https://www.youtube.com/c/WithUss" },
+  { name: "Withus بالعربي", url: "https://www.youtube.com/c/WithUss" },
   {
     name: "AIO - All In One product",
     url: "https://www.facebook.com/allMaterialInOnePlace",
