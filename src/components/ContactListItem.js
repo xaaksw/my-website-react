@@ -5,7 +5,7 @@ function ContactListItem(props) {
         className="p-3 btn btn-outline-light fw-bold"
         href={props.url}
         target="_blank"
-        rel="noopener"
+        rel="noreferrer"
       >
         {props.name}
       </a>
